@@ -1,1 +1,1 @@
-# Medical-research-02--EEG-data-classification
+# Medical-research-02--ECG-data-classification
