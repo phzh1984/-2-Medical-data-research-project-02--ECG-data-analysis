@@ -2,13 +2,13 @@
 
 This project is to use a large but imbalanced ECG dataset for a case study and implement, validate, and optimize some machine learning solutions for the analysis and classification of heartbeat data.
 
-The goal of the ECG data analysis was to do multi-classification of what kind of heart disease a person has based on their ECG data, there was 5 classifications (4 classifications had heart disease, 1 classification was healthy). During the experiment, different machine learning algorithms were used, and an optimal algorithm was selected for future classification prediction. 
+The goal of the ECG data analysis was to do multi-classification of what kind of heart disease a person has based on their ECG data, There were 5 classifications (4 classifications had heart disease, 1 classification was healthy). During the experiment, different machine learning algorithms were used, and an optimal algorithm was selected for future classification prediction. 
 
-Experimental steps were as follows：
+The experimental steps were as follows：
 
-1. The raw data was the ECG data of different people. Data exploratory analysis and visualization were carried out by comparing a sample of each heartbeat type, find that for different heartbeat types, the length, the timing and the amplitude of different waves were different. 
-2. Notice the provided training set was imbalanced based on the classification, so need to balance the training set as a classifier built based on imbalanced training set may just classify any dataset to the majority votes in the training dataset. 
-3. Balanced data were classified and predicted using three different machine learning algorithms, including KNN, Decision tree, SVM. Statistical measures were used as features and important features were selected to classify by using SVM. 
+1. The raw data was the ECG data of different people. Data exploratory analysis and visualization were carried out by comparing a sample of each heartbeat type, finding that for different heartbeat types, the length, the timing, and the amplitude of different waves were different. 
+2. Notice the provided training dataset was imbalanced based on the classification, so I need to balance the training dataset because a classifier built based on an imbalanced training dataset may just classify any dataset to the majority votes in the training dataset. 
+3. Balanced data were classified and predicted using three different machine learning algorithms, including KNN, Decision tree, and SVM. 
 4. Finally, found the optimal machine learning algorithm based on the classification prediction accuracy rate on the testing data. The best classifier I have got for this project is KNN by using all the features, the accuracy rate was 78% for this classifier.
 
 
