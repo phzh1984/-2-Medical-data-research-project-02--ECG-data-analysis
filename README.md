@@ -1,4 +1,4 @@
-# Medical-research-02--ECG-data-classification
+# Medical research data analysis - ECG data classification prediction
 
 This project is to use a large but imbalanced ECG dataset for a case study and implement, validate, and optimize some machine learning solutions for the analysis and classification of heartbeat data.
 
